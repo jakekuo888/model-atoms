@@ -1,7 +1,3 @@
-/*
-main window generator
-*/
-
 #include <iostream>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
@@ -12,16 +8,12 @@ main window generator
 #include <cmath>
 #include <ctime>
 #include <cstdlib>
-using namespace std;
 
-#include <iostream>
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
+#include "raytrace.hpp"
+#include "math.hpp"
 
 using namespace std;
+using namespace glm;
 
 struct Engine {
     GLFWwindow* window;
